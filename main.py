@@ -12,7 +12,7 @@ def count_sin():
 connection = None
 
 try:
-    connection = psycopg2.connect(host="my-postgres", user="postgres", password="mysecretpassword",
+    connection = psycopg2.connect(host=host, user=user, password=password,
                                   dbname=dbname)
     with connection.cursor() as cursor:
         cursor.execute(
