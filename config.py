@@ -1,8 +1,8 @@
-host = "localhost"
+host = "my-postgres"
 
 user = "postgres"
 
-password = "123456"
+password = "mysecretpassword"
 
 dbname = "postgres"
 
